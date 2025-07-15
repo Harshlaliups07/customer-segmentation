@@ -1,0 +1,76 @@
+# 🧠 Customer Segmentation using Hierarchical Clustering
+
+This project focuses on identifying distinct customer groups using **Hierarchical Clustering** based on their purchasing behavior. It is a part of a Data Analytics mini-project.
+
+---
+
+## 📌 Objective
+To segment customers into different groups using unsupervised learning so that businesses can:
+- Understand customer behavior
+- Target specific groups with personalized marketing
+- Improve sales and customer satisfaction
+
+---
+
+## 📁 Dataset
+- The dataset used contains information about customers such as:
+  - Annual Income
+  - Spending Score
+  - Age
+- Source: [Mall Customer Segmentation Data](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial)
+
+---
+
+## 🧪 Techniques Used
+- Exploratory Data Analysis (EDA)
+- Data Preprocessing
+- Dendrogram Plotting
+- Agglomerative Hierarchical Clustering
+- Data Visualization
+
+---
+
+## 📊 Tools & Libraries
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 📌 Results
+- Customers were successfully segmented into distinct clusters.
+- Each cluster shows a different pattern of income and spending.
+- Visualizations clearly depict the separation of these groups.
+
+---
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/customer-segmentation
+Open the .ipynb notebook in Google Colab or Jupyter.
+
+Install dependencies if needed:
+
+bash
+Copy
+Edit
+pip install pandas matplotlib seaborn scikit-learn
+Run the notebook.
+
+🔗 Live Demo
+👉 Open Google Colab Notebook
+
+📄 Report
+A detailed PDF report is included in the repository.
+📘 Customer_Segmentation_Report.pdf
+
+👩‍💻 Author
+Harshali Ramesh Upase
+B.E. Electronics & Telecommunication | Data Analytics Enthusiast
+
+📬 Contact
+📧 harshali.harshaliupase12@gmail.com
+📱 LinkedIn: Harshali Upase
