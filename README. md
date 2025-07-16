@@ -1,72 +1,56 @@
-# 🧠 Customer Segmentation using Hierarchical Clustering
+# Customer Segmentation using K-Means Clustering
 
-This project focuses on identifying distinct customer groups using **Hierarchical Clustering** based on their purchasing behavior. It is a part of a Data Analytics mini-project.
+**Project by:** Harshali Upase  
+**Task:** ML Task 2 – Credora Internship  
+**Topic:** Customer Segmentation using K-Means Algorithm  
 
----
+## 🧠 Objective
 
-## 📌 Objective
-To segment customers into different groups using unsupervised learning so that businesses can:
-- Understand customer behavior
-- Target specific groups with personalized marketing
-- Improve sales and customer satisfaction
+Segment customers based on shopping patterns using the K-Means clustering algorithm to identify customer behavior and help in targeted marketing strategies.
 
----
+## 📊 Dataset
 
-## 📁 Dataset
-- The dataset used contains information about customers such as:
-  - Annual Income
-  - Spending Score
-  - Age
-- Source: [Mall Customer Segmentation Data](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial)
+- Source: [Mall Customer Segmentation Dataset](https://gist.githubusercontent.com/pravalliyaram/5c05f43d2351249927b8a3f3cc3e5ecf/raw/Mall_Customers.csv)
+- Features used: `Annual Income (k$)`, `Spending Score (1-100)`
+## 🔍 Key Concepts
 
----
-
-## 🧪 Techniques Used
-- Exploratory Data Analysis (EDA)
+- Unsupervised Learning
+- K-Means Clustering
+- Elbow Method & Silhouette Score
 - Data Preprocessing
-- Dendrogram Plotting
-- Agglomerative Hierarchical Clustering
-- Data Visualization
+- Cluster Visualization
+
+## 🛠️ Steps Performed
+
+1. Data Loading and Cleaning  
+2. Feature Selection and Scaling  
+3. Finding Optimal Clusters using Elbow & Silhouette  
+4. Applying K-Means Clustering  
+5. Visualizing Segments  
+6. Exporting Clustered Data
+
+## 🖼️ Results
+
+- Optimal number of clusters found using Elbow & Silhouette methods: **5**
+- Cluster plots generated to visually represent different customer groups
+- CSV file exported containing cluster labels
+## 📁 Project Files
+
+- `customer_segmentation.ipynb` - Google Colab notebook  
+- `clustered_customers.csv` - Output with clusters  
+- `report.pdf` - Project report  
+- `README.md` - This file  
+
+## 📌 Tools Used
+
+- Python, Pandas, Scikit-learn, Matplotlib, Seaborn  
+- Google Colab
+
+## 🔗 Live Notebook
+
+[Click here to open in Google Colab](https://colab.research.google.com) *(Upload your notebook here)*
 
 ---
-
-## 📊 Tools & Libraries
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-
----
-
-## 📌 Results
-- Customers were successfully segmented into distinct clusters.
-- Each cluster shows a different pattern of income and spending.
-- Visualizations clearly depict the separation of these groups.
-
----
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/customer-segmentation
-Open the .ipynb notebook in Google Colab or Jupyter.
-
-Install dependencies if needed:
-
-bash
-Copy
-Edit
-pip install pandas matplotlib seaborn scikit-learn
-Run the notebook.
-
-🔗 Live Demo
-👉 Open Google Colab Notebook
-
-📄 Report
-A detailed PDF report is included in the repository.
-📘 Customer_Segmentation_Report.pdf
-
 👩‍💻 Author
 Harshali Ramesh Upase
 B.E. Electronics & Telecommunication | Data Analytics Enthusiast
